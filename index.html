@@ -311,14 +311,15 @@
 
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    <a href="https://bambrush.co.in/" target="_blank" style="text-decoration: none; color: white;">Bambrush</a>
+                                    Bambrush
                                 </h3>
                                 <p class="item-folio__cat">
                                     Web Design
                                 </p>
                             </div>
 
-                            <a href="https://bambrush.co.in/" target="_blank" class="item-folio__project-link" title="Project link">
+                            <a href="https://bambrush.co.in/" target="_blank" class="item-folio__project-link"
+                                title="Project link">
                                 <i class="icon-link"></i>
                             </a>
 
@@ -344,15 +345,15 @@
 
                             <div class="item-folio__text">
                                 <h3 class="item-folio__title">
-                                    <a href="https://www.soumyashyammakeup.com/" target="_blank" >Soumya Shyam Makeup Artist website</a>
+                                    Soumya Shyam Makeup  Artist website</a>
                                 </h3>
                                 <p class="item-folio__cat">
                                     Web Design
                                 </p>
                             </div>
 
-                            <a href="https://www.soumyashyammakeup.com/" target="_blank" class="item-folio__project-link"
-                                title="Project link">
+                            <a href="https://www.soumyashyammakeup.com/" target="_blank"
+                                class="item-folio__project-link" title="Project link">
                                 <i class="icon-link"></i>
                             </a>
 
@@ -364,16 +365,76 @@
 
                         </div>
                     </div> <!-- end masonry__brick -->
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
 
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gloria.png" class="thumb-link"
+                                    title="Woodcraft" data-size="1050x700">
+                                    <img src="images/portfolio/gloria.png"
+                                        srcset="images/portfolio/gloria.png 1x, images/portfolio/gloria@2px.png 2x"
+                                        alt="">
+                                </a>
+                            </div>
 
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Gloria Global Ventures</a>
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Developent
+                                </p>
+                            </div>
 
+                            <a href="" target="_blank"
+                                class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                               <p>The Employee and Task Management System developed for Gloria Ventures is designed to streamline their operations and significantly enhance productivity. This comprehensive platform allows administrators to efficiently manage both employees and students who have enrolled in colleges through Gloria Ventures. With a unified system, it simplifies task delegation, tracking, and employee management, while also providing seamless management of student admissions. This all-in-one solution makes work more organized and efficient, reducing complexity and saving valuable time</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
+
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/job_portal.png" class="thumb-link"
+                                    title="Woodcraft" data-size="1050x700">
+                                    <img src="images/portfolio/job_portal.png"
+                                        srcset="images/portfolio/job_portal.png 1x, images/portfolio/job_portal@2px.png 2x"
+                                        alt="">
+                                </a>
+                            </div>
+
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    GK Job portal</a>
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Developent
+                                </p>
+                            </div>
+
+                            <a href="" target="_blank"
+                                class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+
+                            <div class="item-folio__caption">
+                               <p>Job portal made with unique features</p>
+                            </div>
+
+                        </div>
+                    </div> <!-- end masonry__brick -->
                 </div> <!-- end masonry -->
             </div> <!-- end col-full -->
         </div> <!-- end works-content -->
 
     </section> <!-- end s-works -->
-
-
     <!-- Team
     ================================================== -->
     <section id="clients" class="s-clients">
@@ -707,6 +768,14 @@
                     }, 6000);
                 });
         });
+    </script>
+    <script>
+        document.querySelectorAll('.item-folio__project-link').forEach(link => {
+            link.addEventListener('click', (event) => {
+                event.stopPropagation(); // Stop the click event from propagating to parent elements
+            });
+        });
+
     </script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <!-- Java Script
